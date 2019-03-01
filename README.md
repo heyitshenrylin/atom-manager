@@ -1,6 +1,6 @@
 # Atom Manager
-#### A custom atom installs manager
-Author: [Henry Lin](https://github.com/heyitshenrylin)
+### A Custom Atom Installs Manager Using Rust
+###### Author: [Henry Lin](https://github.com/heyitshenrylin)
 
 ## So What Is It?
 
@@ -21,7 +21,10 @@ the code and then re-compile by navigating to the `src` folder and then typing
 Please also take a look at the dependencies in case you don't have them
 
 ## Current Version
-#### v0.1.0 - Feb 28 2019
+
+---
+### v0.1.0 - Feb 28 2019
+---
 
 Basic functionality, running the shortcut to the executable file prompts the
 user in a command line to enter a number for which atom install to run.
@@ -31,14 +34,15 @@ a brand new atom install in the `atom-installs` folder.
 
 ## Dependencies
 
-The atom manager only works on `Windows` based systems.
+The atom manager only works on Windows based systems due to it's need for batch
+scripts.
 
 The main language used is Rust, you will need it's compiler `Rustc` to compile
 the `main.rs` file.
 
 You can install Rust [here](https://www.rust-lang.org/tools/install)
 
-### Known Issues
+## Known Issues
 
 * Redirecting PATH is still tedious in comparison to the batch files
 
@@ -49,5 +53,7 @@ You can install Rust [here](https://www.rust-lang.org/tools/install)
 
 * Revising the atom-manager and my actual installs folder is not streamlined
 
+---
+
 **Special thanks to [Imswebra](https://github.com/imswebra "Github Profile") for
-*his atom setup for c++ and python with the batch scripts**
+his atom setup for c++ and python with the batch scripts**
